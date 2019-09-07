@@ -4,7 +4,7 @@ import java.util.logging.Logger;
 
 public class DbConector {
 
-    private final static Logger LOGGER = Logger.getLogger("DbConector");
+    private final static Logger LOGGER = Logger.getLogger("IdbConector");
 
     private static DbConector instance;
 
