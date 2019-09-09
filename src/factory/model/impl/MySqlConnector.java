@@ -1,6 +1,8 @@
-package Factory.model;
+package factory.model.impl;
 
-public class MySqlConnector implements IdbConector {
+import factory.model.DbConector;
+
+public class MySqlConnector implements DbConector {
 
 
     @Override

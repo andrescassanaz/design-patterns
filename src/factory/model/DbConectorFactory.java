@@ -1,7 +1,11 @@
-package Factory.model;
+package factory.model;
+
+import factory.model.impl.MySqlConnector;
+import factory.model.impl.PostgreSqlConnector;
+import factory.model.impl.SqlServerConnector;
 
 public class DbConectorFactory {
-    public static IdbConector getConnector(String tipeOfConnector){
+    public static DbConector getConnector(String tipeOfConnector){
 
         if(tipeOfConnector.equals("mysql")){
             return new MySqlConnector();

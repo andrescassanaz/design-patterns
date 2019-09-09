@@ -1,4 +1,4 @@
-package abstract_factory.model.impl;
+package abstract_factory.model;
 
 import abstract_factory.model.ComputerService;
 

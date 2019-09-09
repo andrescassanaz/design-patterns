@@ -1,6 +1,8 @@
-package Factory.model;
+package factory.model.impl;
 
-public class PostgreSqlConnector implements IdbConector {
+import factory.model.DbConector;
+
+public class PostgreSqlConnector implements DbConector {
     @Override
     public void connect() {
         System.out.println("PostgreSQL Connect");

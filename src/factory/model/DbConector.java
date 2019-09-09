@@ -1,6 +1,6 @@
-package Factory.model;
+package factory.model;
 
-public interface IdbConector {
+public interface DbConector {
     void connect();
     void disconnect();
 }

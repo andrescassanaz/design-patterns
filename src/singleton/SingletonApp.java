@@ -2,7 +2,7 @@ package singleton;
 
 import java.util.logging.Logger;
 
-public class App {
+public class SingletonApp {
 
     private final static Logger LOGGER = Logger.getLogger("App");
 

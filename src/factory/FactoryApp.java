@@ -1,14 +1,14 @@
-package Factory;
+package factory;
 
-import Factory.model.DbConectorFactory;
-import Factory.model.IdbConector;
+import factory.model.DbConectorFactory;
+import factory.model.DbConector;
 
-public class App {
+public class FactoryApp {
     public static void main(String[] args) {
 
-        IdbConector mysqlConector = DbConectorFactory.getConnector("mysql");
-        IdbConector postgresqlConector = DbConectorFactory.getConnector("postgresql");
-        IdbConector sqlserverConector = DbConectorFactory.getConnector("sqlserver");
+        DbConector mysqlConector = DbConectorFactory.getConnector("mysql");
+        DbConector postgresqlConector = DbConectorFactory.getConnector("postgresql");
+        DbConector sqlserverConector = DbConectorFactory.getConnector("sqlserver");
 
         mysqlConector.connect();
         mysqlConector.disconnect();

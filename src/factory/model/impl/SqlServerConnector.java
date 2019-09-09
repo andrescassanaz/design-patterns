@@ -1,6 +1,8 @@
-package Factory.model;
+package factory.model.impl;
 
-public class SqlServerConnector implements IdbConector {
+import factory.model.DbConector;
+
+public class SqlServerConnector implements DbConector {
 
     @Override
     public void connect() {
